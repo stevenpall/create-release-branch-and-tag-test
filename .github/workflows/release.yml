@@ -16,7 +16,6 @@ jobs:
         fetch-depth: 0
 
     - name: Bump version, push branch, and tag
-      uses: stevenpall/create-release-branch-and-tag-action@0.10.0
+      uses: stevenpall/create-release-branch-and-tag-action@0.11.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        VERBOSE: true
