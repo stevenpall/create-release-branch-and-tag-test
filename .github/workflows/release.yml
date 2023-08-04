@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Bump version, push branch and tag
-      uses: stevenpall/create-release-branch-and-tag-action@0.9.0
+    - name: Bump version, push branch, and tag
+      uses: stevenpall/create-release-branch-and-tag-action@0.10.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
