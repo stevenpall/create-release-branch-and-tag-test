@@ -14,6 +14,6 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Bump version, push branch and tag
-      uses: stevenpall/create-release-branch-and-tag-action@0.7.0
+      uses: stevenpall/create-release-branch-and-tag-action@0.8.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
