@@ -1,4 +1,3 @@
-# Run every 3 weeks
 name: Bump version
 on:
   push:
